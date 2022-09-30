@@ -1,1 +1,4 @@
-Utility Functions
+___Utility Functions___
+{{frappe.utils.formatdate(frappe.utils.nowdate(),"dd-MM-yyyy")}} -->for printing the 01-01-2022 format.
+{{frappe.utils.formatdate(frappe.utils.nowdate(),"dd-MMM-yyyy")}} -->for printing the 01-Jan-2022 format.
+{{frappe.utils.formatdate(doc.get('my_date'),"dd-MM-yyyy")}} --> for doctype field fetching & printing the 01-01-2022 format.
